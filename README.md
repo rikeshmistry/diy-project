@@ -1,1 +1,1 @@
-# diy-project-2
+# diy-project
