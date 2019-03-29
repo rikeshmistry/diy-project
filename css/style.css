@@ -29,7 +29,7 @@ section p {
 }
 
 section button {
-  align: center;
+  text-align: center;
 }
 
 header {
@@ -40,8 +40,9 @@ header {
 
 h2 {
   text-transform: uppercase;
+  text-align: center;
   color: #5D86AD;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 nav {
@@ -108,6 +109,11 @@ form textarea {
 form button {
   display: block;
   margin: 0 auto;
+}
+
+button {
+  background-color: white;
+  text-align: center;
 }
 
 .submit {
