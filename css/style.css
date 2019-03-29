@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500,700');
+
+body {
+  /* Remove user agent (browser) stylesheet styling */
+  padding: 0;
+  margin: 0;
+  color: #241F1F;
+  background-color: #C9E8C7;
+  font-family: "Ubuntu", "sans-serif";
+  line-height: 1.0;
+  font-size: 16px;
+}
+
+section {
+  /* Floating elements sit next to each other on one line as far as there is room. Float: left; makes elements sit next to each other starting on the left. We can also use float: right;  */
+  float: left;
+  /* We set a width of 50% to split the screen into two columns */
+  width: 50%;
+  height: 500px;
+  text-align: justify;
+}
+
+section div {
+  padding: 0 20px;
+}
+
+section p {
+  text-align: center;
+}
+
+section button {
+  align: center;
+}
+
+header {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 40px 0;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #5D86AD;
+  font-size: 30px;
+}
+
+nav {
+  margin: 40px 0;
+}
+
+nav a {
+  font-family: "Ubuntu", "sans-serif";
+  font-weight: 700;
+  color: orange;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 25px 0 25px;
+}
+
+nav a:hover {
+  color: #fac600;
+}
+
+/* This styles up elements in html with a class of .big-image */
+.big-image {
+  /* This stretches the background images to cover the sections */
+  background-size: cover;
+}
+
+/* These add different background images to the sections with id attributes */
+#dine {
+  background-image: url('../images/nomadic/bali-food.png');
+}
+
+#leisure {
+  background-image: url('../images/nomadic/bali-pool.png');
+}
+
+#accommodation {
+  background-image: url('../images/nomadic/bali-villa.png');
+}
+
+div {
+  /* This moves the topic content vertically down inside the sections with text. To adjust position, increase or decrease the percentage*/
+  transform: translateY(70%);
+}
+
+div.post-details {
+  text-align: center;
+  font-size: 12px;
+}
+
+form {
+  /* This fixes the floated layout and allows us to add height to the form */
+  clear: left;
+  text-align: center;
+  padding: 20px;
+}
+
+form h2 {
+  padding-bottom: 10px;
+}
+
+form textarea {
+  text-align: center;
+}
+
+form button {
+  display: block;
+  margin: 0 auto;
+}
+
+.submit {
+  background-color: #fac600;
+  padding: 10px 30px;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  cursor: pointer;
+}
