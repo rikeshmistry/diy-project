@@ -112,15 +112,5 @@ form button {
 }
 
 button {
-  background-color: white;
-  text-align: center;
-}
-
-.submit {
-  background-color: #fac600;
-  padding: 10px 30px;
-  font-size: 14px;
-  text-transform: uppercase;
-  border-radius: 4px;
-  cursor: pointer;
+  color: green;
 }
